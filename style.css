@@ -1,0 +1,458 @@
+/*
+Theme Name: Luiz Augusto
+Theme URI: www.luizaugustoveloso.com.br
+Author: Luiz Augusto Veloso
+Author URI: www.luizaugustoveloso.com.br
+Description: Thema desenvolvido para Poker Mind
+Version: 1.0
+Tags: Poker.
+
+*/
+
+ul{
+	list-style: none;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	font-size: 20px;
+}
+
+p{
+	font-size: 15px;
+}
+
+h2, h3, h4, h5, h6, p{
+	font-family: 'Roboto', sans-serif;
+}
+
+.margem_top{
+	margin-top: 10px;
+}
+
+.no-padding{
+	padding: 0px !important;
+}
+
+/*ESTILO TOP*/
+
+.topo{
+	background-color: #000000;
+	height: 44px;
+}
+
+.social{
+	list-style: none;
+	float: right;
+}
+
+.social li{
+	display: inline;
+	line-height: 44px;
+	margin-left: 30px;
+}
+
+.social li a i{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.sec_logo{
+    background-color: black;
+	background-image: url(img/BG.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec_logo .lg{
+	width: 260px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.sec_logo .img_logo{
+	width: 100%;
+	height: auto;
+}
+
+.menu{
+	height: 44px;
+	background-color: #000000;
+}
+
+.nav_bar{
+	line-height: 44px;
+}
+
+.nav_bar li{
+	display: inline;
+	margin-left: 15px;	
+}
+
+.nav_bar li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 14px 5px;
+	text-transform: uppercase;
+}
+
+.nav_bar li a:hover{
+	background-color: #ffffff;
+	color: #000000;
+	transition: 0.5s;
+	 -webkit-transition: 0.5s;
+}
+
+.current-menu-item a{
+	background-color: #ffffff;
+	color: #000000!important;
+}
+
+/*ESTILO SLIDER HOME*/
+
+.slider{
+	background-image:url(img/BG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.publicidade_01{
+	margin: 50px 0;
+}
+
+.publicidade_01 img{
+	width: 100%;
+	height: auto;
+}
+
+.posts-col-0 img{
+	width: 100%;
+	height: 415px;
+}
+
+.posts-col-0 a{
+	text-decoration: none;
+}
+
+.posts-col-0 h2{
+	position: relative;
+	bottom:100px;
+	font-size: 20px;
+	padding: 0 10px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.posts-col-0 h2:hover{
+	color: #cccccc;
+}
+
+.posts-col-1{
+	width: 100%;
+	height: 315px;
+	margin-bottom: 20px;
+}
+
+.posts-col-1 img{
+	width: 100%;
+	height: auto;
+}
+
+.posts-col-1 a{
+	text-decoration: none;
+}
+
+.posts-col-1 h2{
+	position: relative;
+	bottom:100px;
+	font-size: 20px;
+	padding: 0 10px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.posts-col-1 h2:hover{
+	color: #cccccc;
+}
+
+.posts-col-2{
+	margin-bottom: 20px;
+	min-height: 80px;
+}
+
+.posts-col-2 a{
+	text-decoration: none;
+}
+
+.posts-col-2 h2{
+	font-size: 14px;
+	color: #000000;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+.posts-col-2 h2:hover{
+	color: #555555;
+}
+
+.posts-col-2 img{
+	width: 100%;
+	height: auto;
+}
+
+#sid-img{
+	width: 100%;
+	height: auto;
+}
+
+.widget_text01{
+	margin-bottom: 10px;
+}
+
+.widget_text01 h3{
+	text-align: center;
+	font-weight: 700;
+	margin: 0;
+}
+
+.icon-height{
+	height: 67px;
+	margin: 5px 0;
+}
+
+.icon-height i{
+	font-size: 25px;
+}
+
+.icon-height i, .icon-height p{
+	line-height: 67px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+.icon-height p{
+	font-weight: 600;
+}
+
+.ico-00{
+    
+}
+
+.ico-01{
+	background-color: #5872a7;
+}
+
+.text-01{
+	background-color: #3b5998;
+}
+
+.ico-02{
+	background-color: #26b8f0;
+}
+
+.text-02{
+	background-color: #00aced;
+}
+
+.ico-03{
+	background-color: #e65947;
+}
+
+.text-03{
+	background-color: #dd4b39;
+}
+
+.ico-04{
+	background-color: #a5e647;
+}
+
+.text-04{
+	background-color: #87c723;
+}
+
+.ico-05{
+	background-color: #e49b0d;
+}
+
+.text-05{
+	background-color: #b58400;
+}
+
+.text-01:hover, .text-02:hover, .text-03:hover, .text-04:hover, .text-05:hover{
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.artigo a{
+	text-decoration: none;
+}
+
+.art_title{
+	margin-top: 0;
+	font-size: 25px;
+	color: #000000;
+	font-weight: 700;
+}
+
+.art_title2{
+	margin-top: 0;
+	font-size: 17px;
+	color: #000000;
+	font-weight: 700;
+}
+
+#name-cat{
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 3px;
+	display: table;
+	padding: 0 5px;
+}
+
+#name-autor{
+	font-size: 12px;
+}
+
+p{
+	font-size: 14px;
+}
+
+.artigo-min{
+	margin-top: 30px;
+}
+
+.sec_artigo{
+	margin-bottom: 50px;
+}
+
+/* Torneios */
+
+.torneios ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.torneios li {
+    float: left;
+    padding: 0px;
+    width: 16.666%;
+}
+
+.torneios li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: none;
+    border-bottom: 0px;
+    font-weight: 600;
+}
+
+.balao{
+	background: #fff;
+	border-radius: 0px;
+	width: 100%;
+	height: 90px;
+
+	position: relative;
+}
+.balao:after{
+
+	content: "";
+
+	width: 0;
+	height: 0;
+
+	position: absolute;
+
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	
+	bottom: -20px;
+	left: 40%;
+}
+.btn-torneio:focus .balao{
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.btn-torneio:focus .balao:after{
+	border-top: 20px solid #000 !important;
+}
+
+.tablepress th {
+	text-align: center;
+}
+
+.tablepress td {
+	text-align: center;
+}
+
+.tablepress tr {
+	text-align: center;
+}
+
+
+.parceiros{
+	background: #000000;
+	padding: 50px 0;
+}
+
+.parceiros .parceiro_title{
+	text-align: center;
+	color: #000000;
+	font-size: 22px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 3px 5px;
+	font-weight: 700;
+}
+
+.footer_redes{
+	background: #ffffff;
+	padding: 50px 0;
+}
+
+.footer_redes .redes_title{
+	text-align: center;
+	color: #ffffff;
+	font-size: 22px;
+	background-color: #000000;
+	border-radius: 3px;
+	padding: 3px 5px;
+	font-weight: 700;
+}
+
+.size-thumbnail-mais-vistas{
+    width: 100%;
+    height: 100%;
+}
+
+/*ESTILO RODAPÉ*/
+
+.rodape{
+    background-color: black;
+    color: white;
+}
+.rodape a{
+    color: white;
+}
+.rodape ul{
+    padding: 0px !important;
+}
+
+@media (max-width: 800px){
+
+}
